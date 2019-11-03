@@ -17,20 +17,6 @@ function [F,c_v] = granger_cause(x,y,alpha,max_lag)
 % Note that if F > c_v we reject the null hypothesis that y does not
 % Granger Cause x
 
-% Chandler Lutz, UCR 2009
-% Questions/Comments: chandler.lutz@email.ucr.edu
-% $Revision: 1.0.0 $  $Date: 09/30/2009 $
-% $Revision: 1.0.1 $  $Date: 10/20/2009 $
-% $Revision: 1.0.2 $  $Date: 03/18/2009 $
-
-% References:
-% [1] Granger, C.W.J., 1969. "Investigating causal relations by econometric
-%     models and cross-spectral methods". Econometrica 37 (3), 424–438.
-
-% Acknowledgements:
-%   I would like to thank Mads Dyrholm for his helpful comments and
-%   suggestions
-
 %Make sure x & y are the same length
 if (length(x) ~= length(y))
     error('x and y must be the same length');
