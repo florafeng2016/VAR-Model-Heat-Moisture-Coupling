@@ -102,7 +102,7 @@ function [IRpoint, IRup, IRlo, IRmed, IRmean, Bevmean, Bevstd] = ...
 %
 %--------------------------------------------------------------------------
 %
-% Author:  Paolo Z., September 2011
+% Author:  Xiaohang Feng, 2019
 %
 %--------------------------------------------------------------------------
 
