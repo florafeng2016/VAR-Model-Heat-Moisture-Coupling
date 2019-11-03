@@ -68,7 +68,7 @@ function [IR] = irf(Bcomp, VC_eps, IRhoriz, IRtype, sizesho, ispl);
 %
 %--------------------------------------------------------------------------
 %
-% Author:  Paolo Z., September 2011
+% Author:  Xiaohang Feng, 2019
 %
 %--------------------------------------------------------------------------
 
